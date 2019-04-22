@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-design-patterns", "src\csharp-design-patterns\csharp-design-patterns.csproj", "{8A151AE5-AF28-4871-A49A-4621F1AF566F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32F833FA-8B85-44CC-8D6C-F011614632FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F833FA-8B85-44CC-8D6C-F011614632FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F833FA-8B85-44CC-8D6C-F011614632FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F833FA-8B85-44CC-8D6C-F011614632FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE6164A-6ECB-4E2F-B1C8-88E032D9D878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE6164A-6ECB-4E2F-B1C8-88E032D9D878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE6164A-6ECB-4E2F-B1C8-88E032D9D878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE6164A-6ECB-4E2F-B1C8-88E032D9D878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A151AE5-AF28-4871-A49A-4621F1AF566F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A151AE5-AF28-4871-A49A-4621F1AF566F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A151AE5-AF28-4871-A49A-4621F1AF566F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A151AE5-AF28-4871-A49A-4621F1AF566F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4382043-AAC0-4E6C-9FDB-66BB92AA91CA}
+	EndGlobalSection
+EndGlobal
