@@ -53,7 +53,7 @@ namespace csharp_design_patterns
             AbstractFactory apple = new AppleAbstractFactory();
 
             write($"huawei Factory create {huawei.CreateComputer().GetComputerName()}  and {huawei.CreateSmartPhone().GetSmartPhoneName()} ");
-            write($"oppo Factory create {apple.CreateComputer().GetComputerName()}  and {apple.CreateSmartPhone().GetSmartPhoneName()} ");
+            write($"apple Factory create {apple.CreateComputer().GetComputerName()}  and {apple.CreateSmartPhone().GetSmartPhoneName()} ");
         }
     }
 
