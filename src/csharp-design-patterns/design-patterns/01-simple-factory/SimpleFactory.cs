@@ -4,22 +4,20 @@ using System.Text;
 
 namespace csharp_design_patterns.design_patterns.simple_factory
 {
+    /// <summary>
+    /// 简单工厂
+    /// 优点：解耦了客户和产品的直接关系，通过工厂来管理，客户要什么我给你什么，代码简洁，可复用
+    /// 缺点：工厂和产品高度耦合，如果需要添加一个新的产品就需要改动工厂类代码
+    /// </summary>
     public class SimpleFactory
     {
-        /// <summary>
-        /// 工厂类，封装了创建对象的逻辑代码，
-        /// 优点：解耦了客户和产品的直接关系，通过工厂来管理，客户要什么我给你什么，代码简洁，可复用
-        /// 缺点：工厂和产品高度耦合，如果需要添加一个新的产品就需要改动工厂类代码
-        /// </summary>
-        /// <param name="productName"></param>
-        /// <returns></returns>
-        public static IProduct GetProduct(string productName)
+        public static Product GetProduct(string productName)
         {
-            IProduct product = null;
+            Product product = null;
             switch (productName.ToLower())
             {
                 case "iphone":
-                    product = new Iphone();
+                    product = new Apple();
                     break;
                 case "huawei":
                     product = new HuaWei();
