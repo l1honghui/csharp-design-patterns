@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace csharp_design_patterns.design_patterns
+namespace csharp_design_patterns.design_patterns.CreationPattern
 {
     /// <summary>
     /// 单例模式

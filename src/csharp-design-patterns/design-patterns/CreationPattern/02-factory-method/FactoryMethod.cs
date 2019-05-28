@@ -1,9 +1,6 @@
-﻿using csharp_design_patterns.design_patterns.simple_factory;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using csharp_design_patterns.design_patterns.CreationPattern.simple_factory;
 
-namespace csharp_design_patterns.design_patterns._02_factory_method
+namespace csharp_design_patterns.design_patterns.CreationPattern._02_factory_method
 {
     /// <summary>
     /// 工厂方法

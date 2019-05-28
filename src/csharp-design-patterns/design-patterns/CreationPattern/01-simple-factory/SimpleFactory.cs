@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace csharp_design_patterns.design_patterns.simple_factory
+namespace csharp_design_patterns.design_patterns.CreationPattern.simple_factory
 {
     /// <summary>
     /// 简单工厂

@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace csharp_design_patterns.design_patterns.singleton
+namespace csharp_design_patterns.design_patterns.CreationPattern.singleton
 {
 
     /// <summary>

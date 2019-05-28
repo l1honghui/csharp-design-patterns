@@ -1,9 +1,4 @@
-﻿using csharp_design_patterns.design_patterns.simple_factory;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace csharp_design_patterns.design_patterns._03_abstract_factory
+﻿namespace csharp_design_patterns.design_patterns.CreationPattern._03_abstract_factory
 {
     /// <summary>
     /// 抽象工厂

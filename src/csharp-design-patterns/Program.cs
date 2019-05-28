@@ -1,8 +1,9 @@
-﻿using csharp_design_patterns.design_patterns;
-using csharp_design_patterns.design_patterns._02_factory_method;
-using csharp_design_patterns.design_patterns._03_abstract_factory;
-using csharp_design_patterns.design_patterns.simple_factory;
-using csharp_design_patterns.design_patterns.singleton;
+﻿using csharp_design_patterns.design_patterns.CreationPattern;
+using csharp_design_patterns.design_patterns.CreationPattern._02_factory_method;
+using csharp_design_patterns.design_patterns.CreationPattern._03_abstract_factory;
+using csharp_design_patterns.design_patterns.CreationPattern._04_builder;
+using csharp_design_patterns.design_patterns.CreationPattern.simple_factory;
+using csharp_design_patterns.design_patterns.CreationPattern.singleton;
 using System;
 
 namespace csharp_design_patterns
@@ -11,7 +12,7 @@ namespace csharp_design_patterns
     {
         private static void Main(string[] args)
         {
-            TestAbstactFactory();
+            TestBuilder();
             Console.ReadKey();
         }
 
@@ -54,6 +55,15 @@ namespace csharp_design_patterns
 
             write($"huawei Factory create {huawei.CreateComputer().GetComputerName()}  and {huawei.CreateSmartPhone().GetSmartPhoneName()} ");
             write($"apple Factory create {apple.CreateComputer().GetComputerName()}  and {apple.CreateSmartPhone().GetSmartPhoneName()} ");
+        }
+
+        private static void TestBuilder()
+        {
+            AbstractBuilder appleBuilder = new AppleBuilder();
+            Director director = new Director(appleBuilder);
+            director.Constuct();
+            var prodcute= director.GetProduct();
+            prodcute.ShowFunction();
         }
     }
 
