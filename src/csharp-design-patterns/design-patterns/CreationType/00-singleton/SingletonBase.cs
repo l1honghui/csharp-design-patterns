@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace csharp_design_patterns.CreationPattern
+namespace csharp_design_patterns.CreationType
 {
 
     /// <summary>

@@ -1,4 +1,4 @@
-﻿namespace csharp_design_patterns.CreationPattern
+﻿namespace csharp_design_patterns.CreationType
 {
     /// <summary>
     /// 提供给客户选择的产品

@@ -1,4 +1,4 @@
-﻿using csharp_design_patterns.CreationPattern;
+﻿using csharp_design_patterns.CreationType;
 using System;
 
 namespace csharp_design_patterns

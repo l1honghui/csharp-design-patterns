@@ -1,4 +1,4 @@
-﻿namespace csharp_design_patterns.CreationPattern
+﻿namespace csharp_design_patterns.CreationType
 {
     public abstract class Computer
     {

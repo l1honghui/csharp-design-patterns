@@ -1,4 +1,4 @@
-﻿namespace csharp_design_patterns.CreationPattern
+﻿namespace csharp_design_patterns.CreationType
 {
     /// <summary>
     /// 具体构建者

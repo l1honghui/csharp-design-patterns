@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace csharp_design_patterns.CreationPattern
+namespace csharp_design_patterns.CreationType
 {
     /// <summary>
     /// 产品角色
