@@ -1,14 +1,9 @@
-﻿using csharp_design_patterns.design_patterns.CreationPattern;
-using csharp_design_patterns.design_patterns.CreationPattern._02_factory_method;
-using csharp_design_patterns.design_patterns.CreationPattern._03_abstract_factory;
-using csharp_design_patterns.design_patterns.CreationPattern._04_builder;
-using csharp_design_patterns.design_patterns.CreationPattern.simple_factory;
-using csharp_design_patterns.design_patterns.CreationPattern.singleton;
+﻿using csharp_design_patterns.CreationPattern;
 using System;
 
 namespace csharp_design_patterns
 {
-    class Program
+    static class Program
     {
         private static void Main(string[] args)
         {
@@ -25,8 +20,8 @@ namespace csharp_design_patterns
         {
             write(Singleton.Instance.GetHashCode());
             write(Singleton.Instance.GetHashCode());
-            write(SingletonBase<test>.Instance.GetHashCode());
-            write(SingletonBase<test>.Instance.GetHashCode());
+            write(SingletonBase<Test>.Instance.GetHashCode());
+            write(SingletonBase<Test>.Instance.GetHashCode());
         }
 
         private static void TestSimpleFactory()
@@ -62,13 +57,13 @@ namespace csharp_design_patterns
             AbstractBuilder appleBuilder = new AppleBuilder();
             Director director = new Director(appleBuilder);
             director.Constuct();
-            var prodcute= director.GetProduct();
+            var prodcute = director.GetProduct();
             prodcute.ShowFunction();
         }
     }
 
-    class test : SingletonBase<test>
+    abstract class Test : SingletonBase<Test>
     {
-        private test() { }
+        private Test() { }
     }
 }

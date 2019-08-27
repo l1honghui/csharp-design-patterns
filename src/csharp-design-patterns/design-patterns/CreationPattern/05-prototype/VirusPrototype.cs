@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace csharp_design_patterns.design_patterns.CreationPattern._05_prototype
+namespace csharp_design_patterns.CreationPattern
 {
     class VirusPrototype : Prototype
     {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace csharp_design_patterns.design_patterns.CreationPattern._04_builder
+﻿namespace csharp_design_patterns.CreationPattern
 {
     /// <summary>
     /// 具体构建者

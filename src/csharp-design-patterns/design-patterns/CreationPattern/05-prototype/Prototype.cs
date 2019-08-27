@@ -1,4 +1,4 @@
-﻿namespace csharp_design_patterns.design_patterns.CreationPattern._05_prototype
+﻿namespace csharp_design_patterns.CreationPattern
 {
     /// <summary>
     /// 抽象类 定义基本行为

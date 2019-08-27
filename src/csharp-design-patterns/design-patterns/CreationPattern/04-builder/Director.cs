@@ -1,4 +1,4 @@
-﻿namespace csharp_design_patterns.design_patterns.CreationPattern._04_builder
+﻿namespace csharp_design_patterns.CreationPattern
 {
     /// <summary>
     /// 指导者

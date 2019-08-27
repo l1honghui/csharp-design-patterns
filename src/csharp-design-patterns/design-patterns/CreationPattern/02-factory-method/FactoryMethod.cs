@@ -1,6 +1,4 @@
-﻿using csharp_design_patterns.design_patterns.CreationPattern.simple_factory;
-
-namespace csharp_design_patterns.design_patterns.CreationPattern._02_factory_method
+﻿namespace csharp_design_patterns.CreationPattern
 {
     /// <summary>
     /// 工厂方法
@@ -40,7 +38,7 @@ namespace csharp_design_patterns.design_patterns.CreationPattern._02_factory_met
     }
 
     //如果我要添加一个新的产品 只需要重新创建一个产品工厂和产品类即可，而不用像简单工厂模式中那样去修改工厂类中的实现（具体指添加case语句)
-    public class OppoFactoryMethod: FactoryMethod
+    public class OppoFactoryMethod : FactoryMethod
     {
         public override Product CreateFactory()
         {
