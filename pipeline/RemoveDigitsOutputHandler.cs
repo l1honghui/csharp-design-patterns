@@ -3,9 +3,9 @@ using System.Text;
 
 namespace pipeline
 {
-    public class RemoveDigitsHandler : Handler<string>
+    public class RemoveDigitsOutputHandler : Handler<string, string>
     {
-        public override void Process(string input)
+        public override string Process(string input)
         {
             StringBuilder inputWithoutDigits = new StringBuilder();
 
@@ -22,7 +22,8 @@ namespace pipeline
 
             String inputWithoutDigitsStr = inputWithoutDigits.ToString();
             Console.WriteLine(
-                $"Current handler: {nameof(RemoveDigitsHandler)}, input is {input} of type {nameof(String)}, output is {inputWithoutDigitsStr}, of type {typeof(string)}");
+                $"Current handler: {nameof(RemoveDigitsOutputHandler)}, input is {input} of type {nameof(String)}, output is {inputWithoutDigitsStr}, of type {typeof(string)}");
+            return inputWithoutDigitsStr;
         }
     }
 }

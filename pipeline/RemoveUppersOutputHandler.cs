@@ -3,9 +3,9 @@ using System.Text;
 
 namespace pipeline
 {
-    public class RemoveUppersHandler : Handler<string>
+    public class RemoveUppersOutputHandler : Handler<string, string>
     {
-        public override void Process(string input)
+        public override string Process(string input)
         {
             StringBuilder inputWithoutUppers = new StringBuilder();
 
@@ -22,7 +22,8 @@ namespace pipeline
 
             String inputWithoutUpperStr = inputWithoutUppers.ToString();
             Console.WriteLine(
-                $"Current handler: {nameof(RemoveUppersHandler)}, input is {input} of type {nameof(String)}, output is {inputWithoutUpperStr}, of type {typeof(string)}");
+                $"Current handler: {nameof(RemoveUppersOutputHandler)}, input is {input} of type {nameof(String)}, output is {inputWithoutUpperStr}, of type {typeof(string)}");
+            return inputWithoutUpperStr;
         }
     }
 }
