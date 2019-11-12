@@ -1,12 +1,13 @@
-﻿using System;
-
-namespace pipeline
+﻿namespace pipeline
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new Pipeline<string>(new RemoveUppersHandler())
+                .AddHandler(new RemoveDigitsHandler())
+                .AddHandler(new ConvertToCharArrayHandler()).Execute("#H!E(L&L0O%THE3R#34E!");
+            
         }
     }
 }

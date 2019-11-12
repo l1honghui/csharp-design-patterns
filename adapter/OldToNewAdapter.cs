@@ -1,4 +1,4 @@
-﻿namespace csharp_design_patterns.StructuralType
+﻿namespace adapter
 {
     /// <summary>
     /// 适配器类，

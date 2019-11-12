@@ -1,4 +1,4 @@
-﻿namespace simple_factory
+﻿namespace factory_method
 {
     /// <summary>
     /// 提供给客户选择的产品

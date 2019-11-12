@@ -1,4 +1,4 @@
-﻿namespace csharp_design_patterns.CreationType
+﻿namespace abstract_factory
 {
     public abstract class SmartPhone
     {

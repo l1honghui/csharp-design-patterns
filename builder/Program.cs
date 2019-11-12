@@ -6,7 +6,11 @@ namespace builder
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var appleBuilder = new AppleBuilder();
+            var director = new Director(appleBuilder);
+            director.Constuct();
+            var product = director.GetProduct();
+            product.ShowFunction();
         }
     }
 }

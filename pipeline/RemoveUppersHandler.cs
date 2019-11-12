@@ -3,24 +3,24 @@ using System.Text;
 
 namespace pipeline
 {
-    public class RemoveAlphabetDigitsHandler : Handler<string>
+    public class RemoveUppersHandler : Handler<string>
     {
         public override void Process(string input)
         {
-            StringBuilder inputWithoutAlphabets = new StringBuilder();
+            StringBuilder inputWithoutUppers = new StringBuilder();
 
             for (int index = 0; index < input.Length; index++) {
                 char currentCharacter = input[index];
-                if (char.IsNumber(currentCharacter)) {
+                if (char.IsUpper(currentCharacter)) {
                     continue;
                 }
 
-                inputWithoutAlphabets.Append(currentCharacter);
+                inputWithoutUppers.Append(currentCharacter);
             }
 
-            String inputWithoutAlphabetsStr = inputWithoutAlphabets.ToString();
+            String inputWithoutUpperStr = inputWithoutUppers.ToString();
             Console.WriteLine(
-                $"Current handler: {nameof(RemoveAlphabetDigitsHandler)}, input is {input} of type {nameof(String)}, output is {inputWithoutAlphabetsStr}, of type {typeof(string)}");
+                $"Current handler: {nameof(RemoveUppersHandler)}, input is {input} of type {nameof(String)}, output is {inputWithoutUpperStr}, of type {typeof(string)}");
 
         }
     }

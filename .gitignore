@@ -1,5 +1,16 @@
-/src/csharp-design-patterns/obj
-/src/csharp-design-patterns/bin
 /.vs
 /.idea/
-/src/csharp-design-patterns/csharp-design-patterns.csproj.user
+
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/

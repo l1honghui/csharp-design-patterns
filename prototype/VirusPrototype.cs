@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace csharp_design_patterns.CreationType
+namespace prototype
 {
     class VirusPrototype : Prototype
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace csharp_design_patterns.StructuralType
+namespace adapter
 {
     /// <summary>
     /// 新目标对象，适配器模式中的目标(Target)角色，这里可以写成抽象类或者接口

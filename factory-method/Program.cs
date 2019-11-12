@@ -6,7 +6,11 @@ namespace factory_method
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            FactoryMethod huawei = new HuaweiFactoryMethod();
+            FactoryMethod oppo = new OppoFactoryMethod();
+
+            Console.WriteLine("huawei Factory create " + huawei.CreateFactory().GetProductName());
+            Console.WriteLine("oppo Factory create " + oppo.CreateFactory().GetProductName());
         }
     }
 }

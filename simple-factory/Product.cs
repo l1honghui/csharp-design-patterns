@@ -1,4 +1,4 @@
-﻿namespace csharp_design_patterns.CreationType
+﻿namespace simple_factory
 {
     /// <summary>
     /// 提供给客户选择的产品

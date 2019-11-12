@@ -1,4 +1,4 @@
-﻿namespace csharp_design_patterns.CreationType
+﻿namespace prototype
 {
     /// <summary>
     /// 抽象类 定义基本行为

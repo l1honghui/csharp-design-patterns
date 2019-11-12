@@ -1,4 +1,4 @@
-﻿namespace csharp_design_patterns.CreationType
+﻿namespace builder
 {
     /// <summary>
     /// 抽象建造器

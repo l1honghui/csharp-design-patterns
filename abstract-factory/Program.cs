@@ -6,7 +6,11 @@ namespace abstract_factory
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            AbstractFactory huawei = new HuaweiAbstractFactory();
+            AbstractFactory apple = new AppleAbstractFactory();
+
+            Console.WriteLine($"huawei Factory create {huawei.CreateComputer().GetComputerName()}  and {huawei.CreateSmartPhone().GetSmartPhoneName()} ");
+            Console.WriteLine($"apple Factory create {apple.CreateComputer().GetComputerName()}  and {apple.CreateSmartPhone().GetSmartPhoneName()} ");
         }
     }
 }

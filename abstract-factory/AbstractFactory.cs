@@ -1,4 +1,4 @@
-﻿namespace csharp_design_patterns.CreationType
+﻿namespace abstract_factory
 {
     /// <summary>
     /// 抽象工厂

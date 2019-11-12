@@ -6,7 +6,8 @@ namespace adapter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var adapter = new OldToNewAdapter(new OldAdaptee());
+            adapter.Request();
         }
     }
 }

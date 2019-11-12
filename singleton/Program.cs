@@ -6,7 +6,15 @@ namespace singleton
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(Singleton.Instance.GetHashCode());
+            Console.WriteLine(Singleton.Instance.GetHashCode());
+            Console.WriteLine(SingletonBase<Test>.Instance.GetHashCode());
+            Console.WriteLine(SingletonBase<Test>.Instance.GetHashCode());
         }
+    }
+
+    class Test : SingletonBase<Test>
+    {
+        private Test() { }
     }
 }

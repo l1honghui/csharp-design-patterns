@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace csharp_design_patterns.CreationType
+namespace simple_factory
 {
     /// <summary>
     /// 简单工厂

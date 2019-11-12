@@ -1,4 +1,4 @@
-﻿namespace csharp_design_patterns.CreationType
+﻿namespace factory_method
 {
     /// <summary>
     /// 工厂方法
