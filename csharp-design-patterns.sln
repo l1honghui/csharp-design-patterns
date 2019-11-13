@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prototype", "prototype\prot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adapter", "adapter\adapter.csproj", "{7B64BA5B-4F98-40B9-B3D0-4078DE9C5A81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "object-pool", "object-pool\object-pool.csproj", "{189B4CFD-1225-4E8C-981B-6335D9F57364}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{7B64BA5B-4F98-40B9-B3D0-4078DE9C5A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B64BA5B-4F98-40B9-B3D0-4078DE9C5A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B64BA5B-4F98-40B9-B3D0-4078DE9C5A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{189B4CFD-1225-4E8C-981B-6335D9F57364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189B4CFD-1225-4E8C-981B-6335D9F57364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189B4CFD-1225-4E8C-981B-6335D9F57364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189B4CFD-1225-4E8C-981B-6335D9F57364}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
