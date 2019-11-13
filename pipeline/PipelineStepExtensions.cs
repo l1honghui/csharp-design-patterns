@@ -1,7 +1,7 @@
 ﻿namespace pipeline
 {
     /// <summary>
-    /// 定义一个扩展函数，用于连接管道
+    /// 定义一个扩展函数，连接不同入参类型的管道
     /// </summary>
     public static class PipelineStepExtensions
     {
