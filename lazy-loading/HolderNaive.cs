@@ -19,7 +19,7 @@ namespace lazy_loading
         /**
          * Get heavy object.
          */
-        public Heavy getHeavy() {
+        public Heavy GetHeavy() {
             if (_heavy == null) {
                 _heavy = new Heavy();
             }
