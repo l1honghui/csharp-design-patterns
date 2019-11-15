@@ -10,12 +10,20 @@ namespace pipeline
     {
         public Handler<T> Next { get; set; }
 
+        /// <summary>
+        /// 处理当前Handle 如果存在下一个Handle则继续执行，直到next为null 停止处理，过程中不中断，先进后出
+        /// </summary>
+        /// <param name="input"></param>
         public void Invoke(T input)
         {
             Process(input);
             Next?.Invoke(input);
         }
 
+        /// <summary>
+        /// 处理逻辑
+        /// </summary>
+        /// <param name="input"></param>
         public abstract void Process(T input);
     }
 

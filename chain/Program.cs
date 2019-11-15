@@ -9,8 +9,7 @@ namespace chain
     {
         static void Main(string[] args)
         {
-           
-            HandlerBuilder builder = new HandlerBuilder();
+            var builder = new HandlerBuilder();
             builder.MakeRequest(new Request(RequestType.DefendCastle, "defend castle"));
             builder.MakeRequest(new Request(RequestType.TorturePrisoner, "torture prisoner"));
             builder.MakeRequest(new Request(RequestType.CollectTax, "collect tax"));
