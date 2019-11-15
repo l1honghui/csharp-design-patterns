@@ -15,7 +15,7 @@ namespace chain
         }
 
         /// <summary>
-        /// 如果当前handler匹配request则直接处理，如果不匹配交给next handler处理，过程可中断，先进先出
+        /// 如果当前handler匹配request则直接处理返回，如果不匹配交给next handler处理直到找到或者next为null后停止
         /// </summary>
         /// <param name="req"></param>
         public virtual void HandleRequest(Request req)
