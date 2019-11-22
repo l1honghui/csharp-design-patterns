@@ -13,6 +13,10 @@ namespace proxy
 
         private readonly IWizardTower _tower;
 
+        /// <summary>
+        /// 如果不需要客户端指定对应的被代理对象，可以将入参取消，对客户隐藏具体实现
+        /// </summary>
+        /// <param name="tower"></param>
         public WizardTowerProxy(IWizardTower tower)
         {
             this._tower = tower;
